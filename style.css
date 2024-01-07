@@ -1,0 +1,56 @@
+body {
+  background-color: lightslategray;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: large;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+table, th, td {
+    border: 3px solid black;
+    border-collapse: collapse;
+    font-size: 20px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+  }
+
+.flag {
+  position: relative;
+  width: 600px;
+  height: 400px;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+}
+.hungary {
+  background: linear-gradient(#cf2436 33%, #fff 33%, #fff 66%, #45714e 0);
+}
+
+.kollazs {
+  margin-left: auto;
+  margin-right: auto;
+}
